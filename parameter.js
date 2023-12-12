@@ -7,6 +7,16 @@ function myFun(parameter) {
 console.log("hello world!");
 myFun(10);
 
+// you can take parameters as much as you want but not infinity
+
+function infinity(a,b,c,d,e,f){
+    let add = a + b + c + d + e + f;
+    console.log(add);
+}
+console.log("hello world!");
+infinity(10,11,12,13,14,15);
+
+
 // you can run conditions inside a function
 
 function goo(ghost) {
